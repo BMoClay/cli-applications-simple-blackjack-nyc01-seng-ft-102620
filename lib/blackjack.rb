@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -25,7 +27,6 @@ end
 
 def initial_round
   deal_card
-end
   deal_card
   display_card_total
   # code #initial_round here
