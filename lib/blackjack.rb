@@ -28,7 +28,7 @@ end
 def initial_round
   first_card = deal_card
   second_card = deal_card
-  (first_card, second_card).sum
+  (first_card, second_card).sum = card_total
   binding.pry
   display_card_total
   # code #initial_round here
