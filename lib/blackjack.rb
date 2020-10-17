@@ -27,8 +27,6 @@ def initial_round
   deal_card
 end
   deal_card
-end
-
   display_card_total
   # code #initial_round here
 end
