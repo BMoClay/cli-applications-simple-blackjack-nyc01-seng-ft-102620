@@ -4,6 +4,8 @@ def welcome
 end
 
 def deal_card
+  prng = Random.new
+  prng.rand(1..11)
   # code #deal_card here
 end
 
