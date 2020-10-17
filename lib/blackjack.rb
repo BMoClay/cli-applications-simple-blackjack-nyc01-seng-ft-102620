@@ -16,6 +16,7 @@ def prompt_user
 end
 
 def get_user_input
+  user_input = gets
   # code #get_user_input here
 end
 
