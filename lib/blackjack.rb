@@ -27,6 +27,7 @@ end
 
 def initial_round
   deal_card
+  binding.pry
   deal_card
   display_card_total
   # code #initial_round here
